@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/My-Feedback-App-Lean-Platform-Technology/static/css/main.f855e6bc.css",
+    "main.js": "/My-Feedback-App-Lean-Platform-Technology/static/js/main.e9de2ab0.js",
+    "static/js/453.14f86caf.chunk.js": "/My-Feedback-App-Lean-Platform-Technology/static/js/453.14f86caf.chunk.js",
+    "index.html": "/My-Feedback-App-Lean-Platform-Technology/index.html",
+    "main.f855e6bc.css.map": "/My-Feedback-App-Lean-Platform-Technology/static/css/main.f855e6bc.css.map",
+    "main.e9de2ab0.js.map": "/My-Feedback-App-Lean-Platform-Technology/static/js/main.e9de2ab0.js.map",
+    "453.14f86caf.chunk.js.map": "/My-Feedback-App-Lean-Platform-Technology/static/js/453.14f86caf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.e9de2ab0.js"
+  ]
+}
