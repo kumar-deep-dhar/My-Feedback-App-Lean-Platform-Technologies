@@ -1,0 +1,91 @@
+.feedback-fab {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 9999;
+  display: flex; 
+  justify-content: flex-end;
+}
+
+.fab-button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 50%;
+  background: #3498db;
+  color: white;
+  font-size: 24px;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.fab-button.active {
+  transform: rotate(-45deg);
+}
+
+.fab-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease-in-out;
+}
+
+.fab-icon.open {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.fab-popup {
+  position: absolute;
+  bottom: 70px;
+  left: calc(100% - 250px);
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  padding: 10px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+  z-index: 9;
+}
+
+.fab-option {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  background: #eee !important;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.fab-option:hover {
+  background: #ddd !important;
+}
+
+.fab-option.animate {
+  transform: translateX(-50px);
+  opacity: 0;
+}
+
+.fab-option-icon {
+  margin-right: 10px;
+  font-size: 20px;
+  /* Add your desired color here */
+  color: #000000 !important;
+  transition: all 0.3s ease-in-out !important;
+}
+
+.fab-option-icon svg {
+  fill: #000000 !important;
+}
+
+.fab-option-icon.animate {
+  transform: rotate(360deg);
+}
