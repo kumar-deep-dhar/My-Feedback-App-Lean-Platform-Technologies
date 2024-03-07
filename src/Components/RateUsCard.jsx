@@ -11,9 +11,8 @@ const RateUsCard = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("Submitted rating:", rating, "Feedback:", feedback); // Log data for debugging
+    console.log("Submitted rating:", rating, "Feedback:", feedback);
 
-    // Reset form fields after submission
     setRating(null);
     setFeedback("");
   };
