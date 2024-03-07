@@ -17,11 +17,11 @@ const FeedbackFAB = () => {
 
   const toggleOpen = () => {
     setIsOpen(!isOpen);
-    setSelectedOption(null); // Reset selected option when closing
+    setSelectedOption(null); 
   };
 
   const handleOptionClick = (option) => {
-    setIsOpen(false); // Close options when an option is selected
+    setIsOpen(false); 
     setSelectedOption(option);
   };
 
